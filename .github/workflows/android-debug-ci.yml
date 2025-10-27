@@ -48,7 +48,7 @@ jobs:
       - name: Distribute Debug APK to Firebase
         uses: wzieba/Firebase-Distribution-Github-Action@v1
         with:
-          appId: bubble-2d982
+          appId: 1:680561170660:android:b317c1be177ffa6a7274f1
           serviceCredentialsFileContent: ${{ secrets.SERVICE_ACCOUNT }}
           file: app/build/outputs/apk/debug/app-debug.apk
           groups: qa-testers
