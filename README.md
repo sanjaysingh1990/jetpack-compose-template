@@ -43,3 +43,6 @@ Feel free to customize and extend this template to match the requirements of you
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 If you find this template helpful, please consider giving it a ⭐️ on GitHub. Your support is greatly appreciated!
+
+
+# Trigger the event 1
