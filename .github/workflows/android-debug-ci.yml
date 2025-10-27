@@ -63,5 +63,5 @@ jobs:
           serviceCredentialsFileContent: ${{ secrets.SERVICE_ACCOUNT }}
           file: ./release/app-debug.apk
           groups: qa-testers
-          releaseNotes: "New *Debug* build from GitHub CI 🚀"
+          releaseNotes: "New *Debug* build from GitHub CI -1 🚀"
           debug: true
