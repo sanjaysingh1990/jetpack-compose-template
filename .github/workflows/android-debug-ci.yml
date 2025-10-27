@@ -24,6 +24,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+          
+       # change gradle permission 
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew    
 
       # 3️⃣ Setup Gradle cache
       - name: Setup Gradle
